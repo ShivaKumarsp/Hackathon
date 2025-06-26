@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\hackathonimpl\\staffimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathonimpl\\staffimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\ihackathon\\istaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:ihackathon\\istaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\hackathondto\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathondto\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\hackathonimpl\\loginimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathonimpl\\loginimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\hackathondto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathondto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\hackathondto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathondto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\comman\\connectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:comman\\connectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\hackathonapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathonapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\source\\repos\\hackathonapi\\ihackathon\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:ihackathon\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 434,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonDTO\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "HackathonDTO\\RoleDTO.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonDTO\\RoleDTO.cs",
+              "RelativeToolTip": "HackathonDTO\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:44:54.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonDTO\\StaffDTO.cs",
+              "RelativeDocumentMoniker": "HackathonDTO\\StaffDTO.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonDTO\\StaffDTO.cs",
+              "RelativeToolTip": "HackathonDTO\\StaffDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:32:29.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IStaff.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\IHackathon\\IStaff.cs",
+              "RelativeDocumentMoniker": "IHackathon\\IStaff.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\IHackathon\\IStaff.cs",
+              "RelativeToolTip": "IHackathon\\IStaff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:29:54.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonImpl\\StaffImpl.cs",
+              "RelativeDocumentMoniker": "HackathonImpl\\StaffImpl.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonImpl\\StaffImpl.cs",
+              "RelativeToolTip": "HackathonImpl\\StaffImpl.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwEkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:29:42.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:29:21.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:52:07.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HackathonAPI.http",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonAPI.http",
+              "RelativeDocumentMoniker": "HackathonAPI.http",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonAPI.http",
+              "RelativeToolTip": "HackathonAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-26T08:49:01.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonImpl\\LoginImpl.cs",
+              "RelativeDocumentMoniker": "HackathonImpl\\LoginImpl.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonImpl\\LoginImpl.cs",
+              "RelativeToolTip": "HackathonImpl\\LoginImpl.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA4wAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:32:08.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ILogin.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\IHackathon\\ILogin.cs",
+              "RelativeDocumentMoniker": "IHackathon\\ILogin.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\IHackathon\\ILogin.cs",
+              "RelativeToolTip": "IHackathon\\ILogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:31:04.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:30:31.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonDTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "HackathonDTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonDTO\\LoginDTO.cs",
+              "RelativeToolTip": "HackathonDTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:28:50.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConnectionString.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Comman\\ConnectionString.cs",
+              "RelativeDocumentMoniker": "Comman\\ConnectionString.cs",
+              "ToolTip": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\Comman\\ConnectionString.cs",
+              "RelativeToolTip": "Comman\\ConnectionString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:23:25.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
