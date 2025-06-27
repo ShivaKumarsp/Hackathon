@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\hackathonimpl\\attendanceentryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathonimpl\\attendanceentryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\hackathondto\\attendanceentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathondto\\attendanceentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\hackathonimpl\\staffimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:hackathonimpl\\staffimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\ihackathon\\istaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:ihackathon\\istaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\ihackathon\\iattendanceentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:ihackathon\\iattendanceentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\controllers\\attendanceentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|solutionrelative:controllers\\attendanceentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEAB61C2-20AB-4A99-A955-0868BBBC28FC}|HackathonAPI.csproj|c:\\users\\sowmya\\hackathon\\hackathonapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,15 +70,98 @@
       "DocumentGroups": [
         {
           "DockedHeight": 434,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttendanceEntryController.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\AttendanceEntryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceEntryController.cs",
+              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\AttendanceEntryController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceEntryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:40:49.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAttendanceEntry.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\IHackathon\\IAttendanceEntry.cs",
+              "RelativeDocumentMoniker": "IHackathon\\IAttendanceEntry.cs",
+              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\IHackathon\\IAttendanceEntry.cs",
+              "RelativeToolTip": "IHackathon\\IAttendanceEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:41:24.731Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceEntryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\AttendanceEntryImpl.cs",
+              "RelativeDocumentMoniker": "HackathonImpl\\AttendanceEntryImpl.cs",
+              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\AttendanceEntryImpl.cs",
+              "RelativeToolTip": "HackathonImpl\\AttendanceEntryImpl.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:41:41.182Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:29:21.788Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffImpl.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\StaffImpl.cs",
+              "RelativeDocumentMoniker": "HackathonImpl\\StaffImpl.cs",
+              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\StaffImpl.cs",
+              "RelativeToolTip": "HackathonImpl\\StaffImpl.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:29:42.391Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceEntryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonDTO\\AttendanceEntryDTO.cs",
+              "RelativeDocumentMoniker": "HackathonDTO\\AttendanceEntryDTO.cs",
+              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonDTO\\AttendanceEntryDTO.cs",
+              "RelativeToolTip": "HackathonDTO\\AttendanceEntryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:43:08.252Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "RoleDTO.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonDTO\\RoleDTO.cs",
               "RelativeDocumentMoniker": "HackathonDTO\\RoleDTO.cs",
@@ -78,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "StaffDTO.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonDTO\\StaffDTO.cs",
               "RelativeDocumentMoniker": "HackathonDTO\\StaffDTO.cs",
@@ -90,45 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IStaff.cs",
-              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\IHackathon\\IStaff.cs",
-              "RelativeDocumentMoniker": "IHackathon\\IStaff.cs",
-              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\IHackathon\\IStaff.cs",
-              "RelativeToolTip": "IHackathon\\IStaff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:29:54.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StaffImpl.cs",
-              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\StaffImpl.cs",
-              "RelativeDocumentMoniker": "HackathonImpl\\StaffImpl.cs",
-              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\StaffImpl.cs",
-              "RelativeToolTip": "HackathonImpl\\StaffImpl.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:29:42.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StaffController.cs",
-              "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\StaffController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
-              "ToolTip": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\StaffController.cs",
-              "RelativeToolTip": "Controllers\\StaffController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T10:29:21.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -140,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "HackathonAPI.http",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonAPI.http",
               "RelativeDocumentMoniker": "HackathonAPI.http",
@@ -152,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "LoginImpl.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonImpl\\LoginImpl.cs",
               "RelativeDocumentMoniker": "HackathonImpl\\LoginImpl.cs",
@@ -164,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ILogin.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\IHackathon\\ILogin.cs",
               "RelativeDocumentMoniker": "IHackathon\\ILogin.cs",
@@ -176,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
@@ -184,12 +241,11 @@
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T07:30:31.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T07:30:31.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonDTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "HackathonDTO\\LoginDTO.cs",
@@ -201,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ConnectionString.cs",
               "DocumentMoniker": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\Comman\\ConnectionString.cs",
               "RelativeDocumentMoniker": "Comman\\ConnectionString.cs",

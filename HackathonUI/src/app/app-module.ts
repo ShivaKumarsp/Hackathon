@@ -15,6 +15,7 @@ import { RouterModule } from '@angular/router';
 import { SearchPipe } from './search-pipe';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { Scheduleshift } from './AllViews/scheduleshift/scheduleshift';
+import { StaffAttendanceEntry } from './AllViews/staff-attendance-entry/staff-attendance-entry';
 
 
 
@@ -30,6 +31,7 @@ import { Scheduleshift } from './AllViews/scheduleshift/scheduleshift';
     Createstaff,
     SearchPipe,
     Scheduleshift,
+    StaffAttendanceEntry,
   ],
   imports: [
     BrowserModule,

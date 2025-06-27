@@ -1,0 +1,14 @@
+
+        body {
+            padding: 2rem;
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            margin-bottom: 2rem;
+        }
+
+        .table td,
+        .table th {
+            vertical-align: middle;
+        }

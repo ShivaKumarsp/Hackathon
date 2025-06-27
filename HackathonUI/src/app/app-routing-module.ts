@@ -5,6 +5,7 @@ import { Home } from './AllViews/home/home';
 import { Dashboard } from './AllViews/dashboard/dashboard';
 import { Createstaff } from './AllViews/createstaff/createstaff';
 import { Scheduleshift } from './AllViews/scheduleshift/scheduleshift';
+import { StaffAttendanceEntry } from './AllViews/staff-attendance-entry/staff-attendance-entry';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   children:[
   {path:"dashboard", component:Dashboard},
   {path:"createstaff", component:Createstaff},
-   {path:"scheduleshift", component:Scheduleshift}    
+  {path:"scheduleshift", component:Scheduleshift},
+  {path:"attendancyentry", component:StaffAttendanceEntry}
   ]},
 ];
 

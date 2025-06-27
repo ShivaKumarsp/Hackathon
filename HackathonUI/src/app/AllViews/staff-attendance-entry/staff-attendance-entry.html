@@ -1,0 +1,96 @@
+<body>
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Create Attendance Entry</h5>
+        </div>
+        <div class="card-body">
+            <form id="attendanceForm">
+                <div class="row">
+                    <!-- Staff ID -->
+                    <div class="col-md-6 mb-3">
+                        <label for="staffId" class="form-label">Staff Name</label>
+                         <select class="form-control" [(ngModel)]="StaffId" name="StaffId" #StaffIdRef="ngModel" required>
+                            <option value="">-- Select Role --</option>
+                            <option *ngFor="let staff of staffList" [value]="staff.staffId">{{ staff.staffName }}
+                            </option>
+                        </select>
+                    </div>
+
+                    <!-- Attendance Date -->
+                    <div class="col-md-6 mb-3">
+                        <label for="attendanceDate" class="form-label">Date</label>
+                        <input type="date" name="ShiftDate" [(ngModel)]="ShiftDate" class="form-control" id="attendanceDate" required />
+                    </div>
+
+                    <!-- Check In Time -->
+                    <div class="col-md-6 mb-3">
+                        <label for="checkInTime" class="form-label">Check-In Time</label>
+                        <input type="time" class="form-control" name="CheckInTime" [(ngModel)]="CheckInTime"  required />
+                    </div>
+
+                    <!-- Check Out Time -->
+                    <div class="col-md-6 mb-3">
+                        <label for="checkOutTime" class="form-label">Check-Out Time</label>
+                        <input type="time" class="form-control" name="checkOutTime" [(ngModel)]="CheckOutTime"  required />
+                    </div>
+
+                    <!-- Status -->
+                    <div class="col-md-6 mb-3">
+                        <label for="status" class="form-label">Status</label>
+                        <select class="form-select" id="status" [(ngModel)]="Status" name="Status" required>
+                            <option selected disabled>-- Select Status --</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                            <option value="On Leave">On Leave</option>
+                        </select>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="col-md-12 mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" id="description" rows="3"
+                            placeholder="Optional notes..." name="Description" [(ngModel)]="Description"></textarea>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="text-end">
+                    <button type="reset" class="btn btn-warning me-2">Cancel</button>
+                    <button type="submit" class="btn btn-success">Submit Attendance</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="card shadow">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Shift Schedule List</h5>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Sl No</th>
+                        <th>Staff Name</th>
+                        <th>Roll Name</th>
+                        <th>Date</th>
+                        <th>Check In</th>
+                        <th>Shift Name</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleTableBody">
+                    <tr *ngFor="let atd of attandanceList; let i = index">
+                        <th>{{tableSize *(page-1)+i+1}}</th>
+                        <td>{{atd.staffName}}</td>
+                        <td>{{atd.roleName}}</td>
+                        <td>{{atd.shiftDate|date}}>
+                        <td>{{atd.checkIn}}</td>
+                        <td>{{atd.checkOut}}</td>
+                        <td>{{atd.status}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
