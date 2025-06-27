@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "HackathonAPI.Controllers.AttendanceEntryController",
+    "Method": "GetData",
+    "RelativePath": "api/AttendanceEntry/getData",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HackathonAPI.HackathonDTO.AttendanceEntryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HackathonAPI.Controllers.AttendanceEntryController",
+    "Method": "SaveData",
+    "RelativePath": "api/AttendanceEntry/saveData",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HackathonAPI.HackathonDTO.AttendanceEntryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HackathonAPI.HackathonDTO.AttendanceEntryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "HackathonAPI.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/login",

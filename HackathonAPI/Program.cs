@@ -1,6 +1,9 @@
 
 using HackathonAPI.HackathonImpl;
 using HackathonAPI.IHackathon;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace HackathonAPI
 {
@@ -26,6 +29,27 @@ namespace HackathonAPI
                             .AllowAnyHeader();
                 });
             });
+            builder.Services.AddAuthentication(option =>
+            {
+                option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                option.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(option =>
+            {
+                option.RequireHttpsMetadata = false;
+                option.SaveToken = true;
+                option.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidIssuer = builder.Configuration["JWTConfig:Issuer"],
+                    ValidAudience = builder.Configuration["JWTConfig:Audiance"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWTConfig:Key"]!)),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true
+                };
+            });
+
             builder.Services.AddScoped<ILogin, LoginImpl>();
             builder.Services.AddScoped<IStaff, StaffImpl>();
             builder.Services.AddScoped<IShiftSchedule, ShiftScheduleImpl>();
@@ -40,6 +64,7 @@ namespace HackathonAPI
             }
             app.UseCors("allowCORS");
             app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
             app.Run();

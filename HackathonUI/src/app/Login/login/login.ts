@@ -23,7 +23,9 @@ var data={UserName:this.UserName,
  {
   if(data.return)
     { 
-      this.router.navigateByUrl('dashboard')
+       localStorage.setItem('accessToken', data.AccessToken); 
+        localStorage.setItem('userid', data.userId);        
+        //this.authService.setSecureToken(data.AccessToken);  
     }
   })
 }

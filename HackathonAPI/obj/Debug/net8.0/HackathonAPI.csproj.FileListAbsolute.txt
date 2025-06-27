@@ -73,3 +73,11 @@ C:\Users\sowmya\Hackathon\HackathonAPI\obj\Debug\net8.0\refint\HackathonAPI.dll
 C:\Users\sowmya\Hackathon\HackathonAPI\obj\Debug\net8.0\HackathonAPI.pdb
 C:\Users\sowmya\Hackathon\HackathonAPI\obj\Debug\net8.0\HackathonAPI.genruntimeconfig.cache
 C:\Users\sowmya\Hackathon\HackathonAPI\obj\Debug\net8.0\ref\HackathonAPI.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sowmya\Hackathon\HackathonAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
