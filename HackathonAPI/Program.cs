@@ -28,6 +28,7 @@ namespace HackathonAPI
             });
             builder.Services.AddScoped<ILogin, LoginImpl>();
             builder.Services.AddScoped<IStaff, StaffImpl>();
+            builder.Services.AddScoped<IShiftSchedule, ShiftScheduleImpl>();
 
             var app = builder.Build();
 

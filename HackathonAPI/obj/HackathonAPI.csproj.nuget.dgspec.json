@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonAPI.csproj": {}
+    "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonAPI.csproj": {
+    "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonAPI.csproj",
         "projectName": "HackathonAPI",
-        "projectPath": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\HackathonAPI.csproj",
+        "projectPath": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\HackathonAPI.csproj",
         "packagesPath": "C:\\Users\\sowmya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sowmya\\source\\repos\\HackathonAPI\\obj\\",
+        "outputPath": "C:\\Users\\sowmya\\Hackathon\\HackathonAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

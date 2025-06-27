@@ -6,5 +6,6 @@ namespace HackathonAPI.IHackathon
     {
         public StaffDTO GetData();
         public StaffDTO SaveData(StaffDTO dto);
+        public StaffDTO GetDashboardData();
     }
 }

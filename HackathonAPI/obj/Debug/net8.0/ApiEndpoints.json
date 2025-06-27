@@ -26,6 +26,98 @@
     ]
   },
   {
+    "ContainingType": "HackathonAPI.Controllers.ShiftScheduleController",
+    "Method": "getroleList",
+    "RelativePath": "api/ShiftSchedule/getroleList",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HackathonAPI.HackathonDTO.ShiftScheduleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HackathonAPI.Controllers.ShiftScheduleController",
+    "Method": "getStaffList",
+    "RelativePath": "api/ShiftSchedule/getStaffList/{id}",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HackathonAPI.HackathonDTO.ShiftScheduleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HackathonAPI.Controllers.ShiftScheduleController",
+    "Method": "SaveData",
+    "RelativePath": "api/ShiftSchedule/saveData",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HackathonAPI.HackathonDTO.ShiftScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HackathonAPI.HackathonDTO.ShiftScheduleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HackathonAPI.Controllers.StaffController",
+    "Method": "GetDashboardData",
+    "RelativePath": "api/Staff/getDashboardData",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HackathonAPI.HackathonDTO.StaffDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "HackathonAPI.Controllers.StaffController",
     "Method": "GetData",
     "RelativePath": "api/Staff/getData",

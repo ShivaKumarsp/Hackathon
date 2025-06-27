@@ -28,5 +28,12 @@ namespace HackathonAPI.Controllers
             return _staff.SaveData(dto);
         }
 
+        [Route("getDashboardData")]
+        public StaffDTO GetDashboardData()
+        {
+            return _staff.GetDashboardData();
+        }
+        
+
     }
 }

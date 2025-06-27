@@ -13,5 +13,6 @@ namespace HackathonAPI.HackathonDTO
         public Array? roleList { get; set; }
         public Array? staffList { get; set; }
         public string? response { get; set; }
+        public string? RoleName { get; set; }
     }
 }
