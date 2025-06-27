@@ -61,7 +61,7 @@ namespace HackathonAPI.HackathonImpl
         {
             using (SqlConnection con = new SqlConnection(cs))
             {
-                SqlCommand cmd = new SqlCommand("createStaff", con);
+                SqlCommand cmd = new SqlCommand("createAttendance", con);
                 cmd.Parameters.Add("@staffId", SqlDbType.VarChar).Value = dto.StaffId;
                 cmd.Parameters.Add("@shiftDate", SqlDbType.VarChar).Value = dto.ShiftDate;
                 cmd.Parameters.Add("@checkInTime", SqlDbType.VarChar).Value = dto.CheckInTime;
