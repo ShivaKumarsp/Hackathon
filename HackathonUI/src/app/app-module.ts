@@ -6,11 +6,16 @@ import { App } from './app';
 import { Header } from './Layout/header/header';
 import { Footer } from './Layout/footer/footer';
 import { Login } from './Login/login/login';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Dashboard } from './AllViews/dashboard/dashboard';
 import { Home } from './AllViews/home/home';
 import { HttpClientModule } from '@angular/common/http';
 import { Createstaff } from './AllViews/createstaff/createstaff';
+import { RouterModule } from '@angular/router';
+import { SearchPipe } from './search-pipe';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { Scheduleshift } from './AllViews/scheduleshift/scheduleshift';
+
 
 
 
@@ -22,13 +27,18 @@ import { Createstaff } from './AllViews/createstaff/createstaff';
     Login,
     Dashboard,
     Home,
-    Createstaff
+    Createstaff,
+    SearchPipe,
+    Scheduleshift,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule,
+    NgxPaginationModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

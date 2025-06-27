@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Allapi } from '../../API/allapi';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,10 +10,11 @@ import { Allapi } from '../../API/allapi';
 })
 export class Login {
   constructor(private allApi:Allapi){}
+  router = inject(Router);
 UserName:any;
 Password:any;
 
-userLogin()
+Login()
 {
 var data={UserName:this.UserName,
   Password:this.Password
@@ -20,7 +22,8 @@ var data={UserName:this.UserName,
  this.allApi.httpPost("Login/login", data).subscribe((data:any) =>
  {
   if(data.return)
-    { window.location.replace('dashboard');
+    { 
+      this.router.navigateByUrl('dashboard')
     }
   })
 }

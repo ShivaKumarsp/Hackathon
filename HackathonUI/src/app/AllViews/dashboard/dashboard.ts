@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Allapi } from '../../API/allapi';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,5 +8,16 @@ import { Component } from '@angular/core';
   styleUrl: './dashboard.css'
 })
 export class Dashboard {
+constructor(private allApi: Allapi){}
+dashboardList:any;
 
+  ngOnInit():void{
+this.getdata();
+  }
+    getdata() {
+    this.allApi.httpGet("Staff/getDashboardData").subscribe((data: any) => {
+      this.dashboardList = data.dashboardList;
+    }
+    )
+  }
 }
